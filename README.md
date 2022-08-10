@@ -10,7 +10,10 @@ Welcome to the `Sinbash Simple Shell` project!! This program is a simple shell t
 ---------------
 Usage: Sinbash is started withthe standard input connected to the terminal. To stat, compile all .c files located in this repository using
 
+````
 gcc -Wall -Werror -Wextra -pedantic *.c -o sinbash ./sinbash
+````
+
 Sinbash is allowed to be invoked interactively and non-interactively. 
 If Sinvash is invoked with standard input not connected to a terminal, it reads and executes received commands in order.
 
@@ -21,12 +24,10 @@ This shell follows the familiar syntax for any other shell.
 ### Testing
 
 ```
-$ ./hsh
-($) /bin/ls
-hsh main.c shell.c
-($)
-($) exit
-$
+$ ./sinbashs
+^.^
+^.^ exit
+
 ```
 
 ### Builtin Commands
@@ -48,7 +49,7 @@ This shell supports a variety of commands:
 `unsetenv` - unsets an environment variable
 
 ```
-$ help <builtin command>
+^.^ help <builtin command>
 ```
 
 
