@@ -57,7 +57,7 @@ This shell supports a variety of commands:
 ### Authors
 ---
 [Evans Kipkemoi](https://github.com/Evans-Kipkemoi)
--
+---
 [Jerry Ngetich](https://github.com/Ngetich31801)
 
 ### More Information
